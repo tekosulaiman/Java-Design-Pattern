@@ -1,0 +1,8 @@
+package adapterpattern;
+
+/**
+ * @author tombisnis@yahoo.com
+ */
+public interface MediaPlayer{
+    public void play(String audioType, String fileName);
+}

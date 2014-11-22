@@ -27,6 +27,6 @@ public class ShapeCache {
         
         Rectangle rectangle = new Rectangle();
         rectangle.setId("3");
-        hashtable.put(rectangle.getId(), square);
+        hashtable.put(rectangle.getId(), rectangle);
     }
 }
